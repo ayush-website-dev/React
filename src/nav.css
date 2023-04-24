@@ -1,0 +1,25 @@
+.menu_main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    
+}
+
+.menu_main a{
+    background-color: #fff;
+    color: #807474;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.menu_main .active{
+
+    border-radius: 3px;
+    background-color:#ddd;
+    color: #000;
+}
